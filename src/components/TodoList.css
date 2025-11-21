@@ -1,0 +1,2 @@
+.todo-list { list-style: none; display:flex; flex-direction:column; gap:10px; }
+.todo-listEmpty { color:#6b7280; padding:18px; text-align:center; }

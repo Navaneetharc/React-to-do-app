@@ -1,0 +1,14 @@
+.todo-input {display: flex; gap: 12px; margin-bottom: 18px;}
+
+.todo-inputField{
+    flex: 1; padding: 12px 14px; border-radius: 10px; border: 1px solid #e6e9ef;
+    box-shadow: inset 0 1px 0 rgb(16,24,40,0.02);
+    outline: node; font-size: 14px;
+}
+.todo-inputField:focus {box-shadow: 0 0 0 4px rgba(99,102,241,0.06); border-color: #6366f1;}
+
+.todo-inputAdd {
+    background: linear-gradient(180deg,#6366f1,#4f46e5); color: white; border: none; padding: 10px 16px; border-radius: 10px;
+    cursor: pointer; font-weight: 600; letter-spacing: 0.2px;
+}
+.todo-inputAdd:hover {transform: translateY(-1px); }

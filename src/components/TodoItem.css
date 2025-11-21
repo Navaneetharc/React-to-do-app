@@ -1,0 +1,17 @@
+.todo-item {display: flex; align-items: center; gap: 12px; padding: 12px; border-radius: 10px; border: 1px solid #eef2ff; background: #fff;}
+.todo-item.completed{opacity: 0.6; text-decoration: line-through;}
+
+.todo-itemLeft input{width: 18px; height: 18px;}
+
+.todo-itemMiddle{flex: 1;}
+.todo-itemText{font-size: 15;}
+
+.todo-itemEdit{width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid #e6e9ef;}
+
+.todo-itemActions { display:flex; gap:8px; }
+
+.btn { padding:8px 10px; border-radius:8px; border:none; cursor:pointer; background:#eef2ff; }
+.btn:hover { transform: translateY(-1px); }
+
+.btn--muted { background:transparent; border:1px solid #e6e9ef; }
+.btn--danger { background: linear-gradient(180deg,#ff7a7a,#ff5252); color:white; }
